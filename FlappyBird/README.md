@@ -1,18 +1,45 @@
-## Getting Started
+# Flappy Bird Java Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java Swing version of Flappy Bird. The game launches in a window and uses keyboard input to start and control the bird.
+
+## Screenshot
+
+![Flappy Bird Screenshot](../../SS.png)
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+- `src`: Java source files and game assets
+- `lib`: project dependencies (if used)
+- `bin`: compiled output files (generated after compilation)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Open the project in VS Code or your terminal.
+2. Open a terminal in the `src` folder:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+cd /Users/trsk/Downloads/github/FlappyBird/FlappyBird/FlappyBird/src
+```
 
-## Dependency Management
+3. Run the game directly if compiled:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+java App
+```
+
+4. If compilation is needed, build first:
+
+```bash
+javac App.java FlappyBird.java
+java App
+```
+
+## Start and Controls
+
+- Once the game window opens, press the `Space` bar (the whitespace key) to start the game.
+- Use the space bar to make the bird flap and keep it flying between the pipes.
+
+## Notes
+
+- The main entry point is `App.java`.
+- The game uses Swing and should run on any system with Java installed.
