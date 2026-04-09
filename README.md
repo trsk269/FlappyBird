@@ -4,7 +4,7 @@ A simple Java Swing Flappy Bird clone written in plain Java.
 
 ## Screenshot
 
-![Flappy Bird Screenshot](SS.png)
+<img src="SS.png" alt="Flappy Bird Screenshot" width="480" />
 
 ## Project Structure
 
